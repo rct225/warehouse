@@ -228,9 +228,13 @@ nav {
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   grid-area: nav;
-  background-color: hsla(0, 0%, 93%, 1);
+  background-color: hsl(345, 6%, 13%, 1);
   border-top: 1px solid hsla(0, 0%, 85%, 1);
   padding: 1.313rem 24.25rem 1.313rem 25rem;
+}
+
+nav a {
+  color: hsla(360, 100%, 100%, 1);
 }
 
 nav a:visted {
