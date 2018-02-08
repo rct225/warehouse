@@ -17,7 +17,7 @@ form {
   grid-template-areas: 'name name price quantity'
                        'description description description description'
                        '. . . submit';
-  font-size: inherit;
+  /* font-size: inherit; */
 }
 
 input {
@@ -27,12 +27,12 @@ input {
 
 select {
   background-color: hsla(0, 0%, 100%, 1);
-  font-size: inherit;
+  /* font-size: inherit; */
 }
 
 textarea {
   min-height: 12rem;
-  font-size: inherit;
+  /* font-size: inherit; */
 }
 
 #name {
