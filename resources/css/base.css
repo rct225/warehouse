@@ -3,6 +3,23 @@
   src: url('../fonts/ari.ttf') format('truetype');
 } */
 
+@font-face {
+  font-family: 'Didact Gothic';
+  src: url('../fonts/DidactGothic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/PT_Sans-Web-Regular.ttd') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/PT_Sans-Web-Bold.ttd') format('truetype');
+  font-weight: bold;
+}
+
 /* Site-Wide Styles */
 
 html {
@@ -121,7 +138,7 @@ select {
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
   border: solid 1px hsla(0, 0%, 91%, 1);
-  margin: 0px 10px;
+  margin: 10px 10px;
 }
 
 .product-item .description {
