@@ -5,7 +5,6 @@
   <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
   <link rel="stylesheet" type="text/css" href="resources/css/base.css">
   <link rel="stylesheet" type="text/css" href="resources/css/about.css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
 </head>
 <body>
   <div class="container">
@@ -13,18 +12,18 @@
     <!-- Header -->
 
     <header>
-      <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
-      </div>
+      <!-- <div class="image-container"> -->
+        <a href="index.html" class="home" aria-label="Return to home page"><img src="resources/img/home.png" alt="warehouse logo"></a>
+      <!-- </div> -->
       <div class="search-bar">
-        <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <input aria-label="search" type="text" name="search" placeholder="Search for items">
+        <a href="#" class="icon"><img src="resources/img/search-black.svg" alt="search icon"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="cart icon"></a>
     </header>
     <nav>
       <a href="deals.html">Today's Deals</a>
-      <a href="products.html">Products</a>
+      <a href="products.html">All Products</a>
       <a href="about.html">About Us</a>
       <a href="sell.html">Sell</a>
       <a href="#">Help</a>
@@ -36,11 +35,11 @@
       <!-- <h1>WAREHOUSE</h1> -->
       <div class="hero">
         <div class="logo">
-          <img src="resources/img/warehouse-logo.svg">
+          <img src="resources/img/warehouse-logo.svg" alt="warehouse logo">
         </div>
       </div>
       <div class="information">
-        <h2>About WareHouse</h2>
+        <h1>About WareHouse</h1>
         <p>
           Looking to rebuild? Well, you've come to the right place. WareHouse
           is a family-owned and operated house wares and furniture business
@@ -59,7 +58,7 @@
           re-modeling your kitchen, or moving to a new city, WareHouse will help your new place feel like home.
         </p>
         <div class="join">
-          <h3>Join Our Team</h3>
+          <h2>Join Our Team</h2>
           <a href="jobs.html" class="button">View Our Job Listings</a>
         </div>
       </div>
@@ -68,27 +67,33 @@
     <!-- Footer -->
 
     <footer>
-      <img src="resources/img/home.png">
+      <img src="resources/img/home.png" alt="warehouse logo">
       <div class="links">
-        <h4>Get to know us</h4>
-        <a href="#">About us</a>
-        <a href="jobs.html">Jobs</a>
-        <a href="#">Investor relations</a>
-        <a href="#">Link</a>
+        <h3>Get to know us</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="#">Investor relations</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
       </div>
       <div class="links">
-        <h4>Make money with us</h4>
-        <a href="sell.html">Sell on WareHouse</a>
-        <a href="#">Become a vendor</a>
-        <a href="#">Fundraiser events</a>
-        <a href="#">Community outreach</a>
+        <h3>Make money with us</h3>
+        <ul>
+          <li><a href="sell.html">Sell on WareHouse</a></li>
+          <li><a href="#">Become a vendor</a></li>
+          <li><a href="#">Fundraiser events</a></li>
+          <li><a href="#">Community outreach</a></li>
+        </ul>
       </div>
       <div class="links">
-        <h4>Help</h4>
-        <a href="#">Contact us</a>
-        <a href="#">Conditions of use</a>
-        <a href="#">Report a problem</a>
-        <a href="#">Privacy Policy</a>
+        <h3>Help</h3>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Conditions of use</a></li>
+          <li><a href="#">Report a problem</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
       </div>
     </footer>
   </div>

@@ -13,18 +13,18 @@
     <!-- Header -->
 
     <header>
-      <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
-      </div>
+      <!-- <div class="image-container"> -->
+        <a href="index.html" class="home" aria-label="Return to home page"><img src="resources/img/home.png" alt="warehouse logo"></a>
+      <!-- </div> -->
       <div class="search-bar">
-        <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <input aria-label="search" type="text" name="search" placeholder="Search for items">
+        <a href="#" class="icon"><img src="resources/img/search-black.svg" alt="search icon"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="cart icon"></a>
     </header>
     <nav>
       <a href="deals.html">Today's Deals</a>
-      <a href="products.html">Products</a>
+      <a href="products.html">All Products</a>
       <a href="about.html">About Us</a>
       <a href="sell.html">Sell</a>
       <a href="#">Help</a>
@@ -33,58 +33,64 @@
     <!-- Sell Product Form -->
 
     <div id="main" class="sell">
-      <h3>Sell</h3>
-      <form>
-        <div id="name" class="field">
+      <h1>Sell</h1>
+      <!-- <form> -->
+        <div id="product-name" class="field">
           <label for="name">Product Name</label>
-          <input type="text" name="name" placeholder="Name of product">
+          <input type="text" id="name" placeholder="Name of product">
         </div>
-        <div id="price" class="field">
+        <div id="product-price" class="field">
           <label for="price">Price</label>
-          <input type="number" name="price">
+          <input type="number" id="price">
         </div>
-        <div id="quantity" class="field">
+        <div id="product-quantity" class="field">
           <label for="quantity">Quantity</label>
-          <select name="quantity">
-            <option value="100"><100</option>
+          <select id="quantity">
+            <option value="100">&lt100</option>
             <option value="200">100-200</option>
             <option value="300">200-300</option>
             <option value="400">300-400</option>
-            <option value="500">>500</option>
+            <option value="500">&gt500</option>
           </select>
         </div>
-        <div id="description" class="field">
+        <div id="product-description" class="field">
           <label for="description">Description</label>
-          <textarea type="text" name="description" placeholder="Description of product"></textarea>
+          <textarea id="description" placeholder="Description of product"></textarea>
         </div>
         <a href="#" class="button" id="submit">Submit</a>
-      </form>
+      <!-- </form> -->
     </div>
 
     <!-- Footer -->
 
     <footer>
-      <img src="resources/img/home.png">
+      <img src="resources/img/home.png" alt="warehouse logo">
       <div class="links">
-        <h4>Get to know us</h4>
-        <a href="#">About us</a>
-        <a href="jobs.html">Jobs</a>
-        <a href="#">Investor relations</a>
-        <a href="#">Link</a>
+        <h3>Get to know us</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="#">Investor relations</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
       </div>
       <div class="links">
-        <h4>Make money with us</h4>
-        <a href="sell.html">Sell on WareHouse</a>
-        <a href="#">Become a vendor</a>
-        <a href="#">Fundraiser events</a>
-        <a href="#">Community outreach</a>
+        <h3>Make money with us</h3>
+        <ul>
+          <li><a href="sell.html">Sell on WareHouse</a></li>
+          <li><a href="#">Become a vendor</a></li>
+          <li><a href="#">Fundraiser events</a></li>
+          <li><a href="#">Community outreach</a></li>
+        </ul>
       </div>
       <div class="links">
-        <h4>Help</h4>
-        <a href="#">Contact us</a>
-        <a href="#">Conditions of use</a>
-        <a href="#">Report a problem</a>
-        <a href="#">Privacy Policy</a>
+        <h3>Help</h3>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Conditions of use</a></li>
+          <li><a href="#">Report a problem</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
       </div>
     </footer>
   </div>

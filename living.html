@@ -11,18 +11,18 @@
     <!-- Header -->
 
     <header>
-      <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
-      </div>
+      <!-- <div class="image-container"> -->
+        <a href="index.html" class="home" aria-label="Return to home page"><img src="resources/img/home.png" alt="warehouse logo"></a>
+      <!-- </div> -->
       <div class="search-bar">
-        <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <input aria-label="search" type="text" name="search" placeholder="Search for items">
+        <a href="#" class="icon"><img src="resources/img/search-black.svg" alt="search icon"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="cart icon"></a>
     </header>
     <nav>
       <a href="deals.html">Today's Deals</a>
-      <a href="products.html">Products</a>
+      <a href="products.html">All Products</a>
       <a href="about.html">About Us</a>
       <a href="sell.html">Sell</a>
       <a href="#">Help</a>
@@ -38,19 +38,19 @@
 
       <h1>Living Room</h1>
       <div class="product-list">
-        <a href="sofas.html" class="product-item">
+        <a href="sofas.html" class="product-item" aria-label="Choose living room sofas">
           <div class="image-container">
-            <img src="resources/img/living/sofas.jpg">
+            <img src="resources/img/living/sofas.jpg" alt="sofas">
           </div>
         </a>
-        <a href="chairs.html" class="product-item">
+        <a href="chairs.html" class="product-item" aria-label="Choose living room chairs">
           <div class="image-container">
-            <img src="resources/img/living/chairs.jpg">
+            <img src="resources/img/living/chairs.jpg" alt="chairs">
           </div>
         </a>
-        <a href="tables.html" class="product-item">
+        <a href="tables.html" class="product-item" aria-label="Choose living room tables">
           <div class="image-container">
-            <img src="resources/img/living/tables.jpg">
+            <img src="resources/img/living/tables.jpg" alt="tables">
           </div>
         </a>
       </div>
@@ -59,27 +59,33 @@
     <!-- Footer -->
 
     <footer>
-      <img src="resources/img/home.png">
+      <img src="resources/img/home.png" alt="warehouse logo">
       <div class="links">
-        <h4>Get to know us</h4>
-        <a href="#">About us</a>
-        <a href="jobs.html">Jobs</a>
-        <a href="#">Investor relations</a>
-        <a href="#">Link</a>
+        <h3>Get to know us</h3>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="jobs.html">Jobs</a></li>
+          <li><a href="#">Investor relations</a></li>
+          <li><a href="#">Link</a></li>
+        </ul>
       </div>
       <div class="links">
-        <h4>Make money with us</h4>
-        <a href="sell.html">Sell on WareHouse</a>
-        <a href="#">Become a vendor</a>
-        <a href="#">Fundraiser events</a>
-        <a href="#">Community outreach</a>
+        <h3>Make money with us</h3>
+        <ul>
+          <li><a href="sell.html">Sell on WareHouse</a></li>
+          <li><a href="#">Become a vendor</a></li>
+          <li><a href="#">Fundraiser events</a></li>
+          <li><a href="#">Community outreach</a></li>
+        </ul>
       </div>
       <div class="links">
-        <h4>Help</h4>
-        <a href="#">Contact us</a>
-        <a href="#">Conditions of use</a>
-        <a href="#">Report a problem</a>
-        <a href="#">Privacy Policy</a>
+        <h3>Help</h3>
+        <ul>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Conditions of use</a></li>
+          <li><a href="#">Report a problem</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
       </div>
     </footer>
   </div>
