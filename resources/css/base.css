@@ -95,7 +95,8 @@ select {
 .product-category {
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
-  border: solid 1px hsla(0, 0%, 91%, 1);
+  /* border: solid 1px hsla(0, 0%, 91%, 1); */
+  margin: 0px 10px;
 }
 
 .product-category .description-category {
@@ -112,6 +113,7 @@ select {
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
   border: solid 1px hsla(0, 0%, 91%, 1);
+  margin: 0px 10px;
 }
 
 .product-item .description {
