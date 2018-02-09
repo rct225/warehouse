@@ -41,7 +41,7 @@ input,
 textarea,
 select {
   border-radius: 3px;
-  background-color: hsla(0, 0%, 89%, 1);
+  /* background-color: hsla(0, 0%, 89%, 1); */
   padding: 1rem;
 }
 
@@ -191,7 +191,8 @@ header {
   align-items: center;
   padding: .75rem 5rem;
   /* font-size: inherit; */
-  background-color: hsla(0, 0%, 93%, 1);
+  /* background-color: hsla(0, 0%, 93%, 1); */
+  background-color: #0692C1;
 }
 
 .search-bar {
@@ -209,7 +210,8 @@ header {
 }
 
 .search-bar .icon {
-  background-color: hsla(0, 0%, 89%, 1);
+  /* background-color: hsla(0, 0%, 89%, 1); */
+  background-color: #fff;
   border-radius: 0 53px 53px 0;
   padding: 1rem;
 }
@@ -235,20 +237,26 @@ nav {
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   grid-area: nav;
-  background-color: hsla(345, 6%, 13%, 1);
-  border-top: 1px solid hsla(0, 0%, 85%, 1);
+  /* background-color: hsla(345, 6%, 13%, 1); */
+  /* border-top: 1px solid hsla(0, 0%, 85%, 1); */
+  /* background-color: #0692C1; */
+  background-color: hsla(0, 0%, 93%, 1);
   padding: 1.313rem 24.25rem 1.313rem 25rem;
+  border-bottom: 1px solid #d8d8d8;
 }
 
 nav > a {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
   position: relative;
   font-size: 20px;
   line-height: 1.5;
 }
 
 nav > a:hover {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
+  text-decoration: none;
 }
 
 nav > a:before {
@@ -258,7 +266,7 @@ nav > a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #fff;
+  background-color: #000;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -273,7 +281,7 @@ nav > a:hover:before {
 }
 
 nav a:visted {
-  color: hsla(0, 0%, 29%, 1);
+  /* color: hsla(0, 0%, 29%, 1); */
 }
 
 @media only screen and (max-width: 1100px) {
