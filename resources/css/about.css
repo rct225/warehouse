@@ -1,16 +1,27 @@
 /* About Page */
 
-.about h1 {
+.about .hero {
   width: 100%;
   padding: 10.5rem 0;
   background-image: url('../img/hero.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: #0692C1;
+  background-blend-mode: multiply;
   /* font-size: inherit; */
-  font-stretch: condensed;
-  color: hsla(0, 100%, 100%, 1);
+  /* font-stretch: condensed; */
+  /* color: hsla(0, 100%, 100%, 1); */
 
+}
+
+.about .hero .logo {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.about .hero .logo img {
+  width: 50%;
 }
 
 .about .information {
