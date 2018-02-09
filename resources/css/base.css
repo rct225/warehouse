@@ -364,6 +364,7 @@ nav a:visted {
   box-sizing: border-box;
   width: 14.375rem;
   padding: .875rem 0;
+  justify-self: center;
 }
 
 /* Footer */
