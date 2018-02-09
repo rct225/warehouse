@@ -195,6 +195,9 @@ header {
   background-color: #0692C1;
 }
 
+.home {
+  justify-self: center;
+}
 .search-bar {
   display: flex;
   border-radius: 33px 53px 33pzx 53px;
