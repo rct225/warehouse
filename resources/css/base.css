@@ -175,7 +175,8 @@ select {
 
 /* Reusable Component - Navigation Breadcrumbs */
 ul.breadcrumb {
-    padding: 2rem 4rem;
+    /* padding: 2rem 4rem; */
+    padding-bottom: 2rem;
     list-style: none;
     align-items: left;
 }
@@ -190,10 +191,14 @@ ul.breadcrumb li+li:before {
     content: "/\00a0";
 }
 ul.breadcrumb li a {
-    color: hsla(0, 0%, 29%, 1);
+    /* color: hsla(0, 0%, 29%, 1); */
+    color: #bdbdbd;
     text-decoration: none;
 }
-
+ul.breadcrumb li a:hover {
+  text-decoration: underline;
+  color: #3a7585;
+}
 
 @media only screen and (max-width: 1100px) {
   .product-list {
