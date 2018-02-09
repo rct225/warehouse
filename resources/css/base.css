@@ -92,6 +92,14 @@ select {
   margin-bottom: 3.75rem;
 }
 
+.grow {
+  transition: all .3s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
+
 .product-category {
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
