@@ -322,7 +322,8 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 1.5rem;
-  background-color: hsla(0, 100%, 100%, 1);
+  /* background-color: hsla(0, 100%, 100%, 1); */
+  background-color: #0692C1;
 }
 
 footer img {
@@ -335,12 +336,14 @@ footer .links {
 }
 
 footer a {
-  color: hsla(0, 0%, 29%, 1);
+  /* color: hsla(0, 0%, 29%, 1); */
+  color: #fff;
 }
 
 footer h4 {
   margin-bottom: 6px;
   font-weight: 700;
+  color: #000;
 }
 
 @media only screen and (max-width: 810px) {
