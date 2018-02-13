@@ -48,26 +48,27 @@
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
   margin-bottom: 3rem;
-  width: 25%;
+  /* width: 25%; */
   justify-self: center;
 }
 
-@media only screen and (max-width: 735px) {
+/* @media only screen and (max-width: 735px) {
   .about h1 {
     font-size: 6rem;
   }
-}
+} */
 
 @media only screen and (max-width: 490px) {
   .about h1 {
-    font-size: 4rem;
+    font-size: 1.5rem;
+    /* margin-bottom: 0.75rem; */
   }
 
-  .about h3 {
+  /* .about h3 {
     font-size: 1.25rem;
-  }
+  } */
 
-  .about p {
+  /* .about p {
     font-size: 1rem;
-  }
+  } */
 }
