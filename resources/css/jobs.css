@@ -7,21 +7,54 @@
   padding: 3.75rem 11.75rem 7.5625rem 11.75rem;
 }
 
-.jobs h3 {
+@media only screen and (max-width: 1100px) {
+  .jobs {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.jobs h1 {
   margin-bottom: 1rem;
   /* font-size: inherit; */
 }
 
 form {
   display: grid;
-  grid-template-columns: repeat(2, 2fr) 1fr;
+  /* grid-template-columns: repeat(2, 2fr) 1fr; */
+  grid-template-areas: 'job-title'
+                       'search';
   align-items: flex-end;
   margin-bottom: 3.125rem;
 }
 
+/* @media only screen and (max-width: 660px) {
+  form {
+    grid-template-areas: 'name'
+                         'price'
+                         'quantity'
+                         'description'
+                         'submit';
+  }
+
+  #submit {
+    justify-self: center;
+  }
+} */
+
 #main form .button {
   height: fit-content;
   padding: 1.14rem 0;
+}
+
+#job-title {
+  grid-area: job-title;
+  border: 1px solid black;
+  margin-bottom: .75rem;
+}
+
+#search {
+  grid-area: search;
 }
 
 .job-list {
