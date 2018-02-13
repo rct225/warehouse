@@ -16,31 +16,15 @@
 
 .jobs h1 {
   margin-bottom: 1rem;
-  /* font-size: inherit; */
 }
 
 form {
   display: grid;
-  /* grid-template-columns: repeat(2, 2fr) 1fr; */
   grid-template-areas: 'job-title'
                        'search';
   align-items: flex-end;
   margin-bottom: 3.125rem;
 }
-
-/* @media only screen and (max-width: 660px) {
-  form {
-    grid-template-areas: 'name'
-                         'price'
-                         'quantity'
-                         'description'
-                         'submit';
-  }
-
-  #submit {
-    justify-self: center;
-  }
-} */
 
 #main form .button {
   height: fit-content;
@@ -68,7 +52,6 @@ form {
 
 .job h4 {
   padding-bottom: .5rem;
-  /* font-size: inherit; */
   line-height: 1.2;
 }
 

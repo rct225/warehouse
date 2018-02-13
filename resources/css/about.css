@@ -9,9 +9,6 @@
   background-position: center;
   background-color: #0692C1;
   background-blend-mode: multiply;
-  /* font-size: inherit; */
-  /* font-stretch: condensed; */
-  /* color: hsla(0, 100%, 100%, 1); */
   text-align: center;
 }
 
@@ -31,12 +28,10 @@
 
 .about h3 {
   margin-bottom: 1rem;
-  /* font-size: inherit; */
 }
 
 .about p {
   padding-bottom: 2rem;
-  /* font-size: inherit; */
   line-height: 1.8;
 }
 
@@ -48,27 +43,11 @@
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
   margin-bottom: 3rem;
-  /* width: 25%; */
   justify-self: center;
 }
-
-/* @media only screen and (max-width: 735px) {
-  .about h1 {
-    font-size: 6rem;
-  }
-} */
 
 @media only screen and (max-width: 490px) {
   .about h1 {
     font-size: 1.5rem;
-    /* margin-bottom: 0.75rem; */
   }
-
-  /* .about h3 {
-    font-size: 1.25rem;
-  } */
-
-  /* .about p {
-    font-size: 1rem;
-  } */
 }
